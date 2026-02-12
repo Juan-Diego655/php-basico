@@ -120,19 +120,19 @@ button:hover{
 <div class="form-container">
     <h2>Contáctame</h2>
 
-    <form>
-        <div class="input-group">
-            <label for="email">Correo electrónico</label>
-            <input type="email" id="email" placeholder="ejemplo@correo.com" required>
-        </div>
+   <form action="/store" method="GET">
+  <div class="input-group">
+    <label for="email">Correo electrónico</label>
+    <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+  </div>
 
-        <div class="input-group">
-            <label for="mensaje">Mensaje</label>
-            <textarea id="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
-        </div>
+  <div class="input-group">
+    <label for="mensaje">Mensaje</label>
+    <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+  </div>
 
-        <button type="submit">Enviar Mensaje</button>
-    </form>
+  <button type="submit">Enviar Mensaje</button>
+</form>
 </div>
 
 </body>
